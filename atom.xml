@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvan188.github.io</id>
     <title>Gridea</title>
-    <updated>2021-05-18T00:11:40.596Z</updated>
+    <updated>2021-05-18T00:12:46.091Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvan188.github.io"/>
     <link rel="self" href="https://lvan188.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://lvan188.github.io/images/avatar.png</logo>
     <icon>https://lvan188.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[SSR]]></title>
+        <id>https://lvan188.github.io/post/ssr/</id>
+        <link href="https://lvan188.github.io/post/ssr/">
+        </link>
+        <updated>2021-05-18T00:10:22.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<pre><code class="language-python">ii
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://lvan188.github.io/post/hello-gridea/</id>
