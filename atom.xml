@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvan188.github.io</id>
     <title>Wed_ZZ</title>
-    <updated>2021-05-18T11:16:54.758Z</updated>
+    <updated>2021-05-18T11:18:14.309Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvan188.github.io"/>
     <link rel="self" href="https://lvan188.github.io/atom.xml"/>
@@ -16,12 +16,9 @@
         <link href="https://lvan188.github.io/post/ssr/">
         </link>
         <updated>2021-05-18T00:10:22.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎 ！<br>
+        <content type="html"><![CDATA[<!-- more -->
+<p>👏  欢迎 ！<br>
 ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎 ！<br>
-...</p>
-<!-- more -->
 <h2 id="c语言">C语言👇</h2>
 <pre><code class="language-c">#include &lt;stdio.h&gt;
  
