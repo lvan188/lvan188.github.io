@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvan188.github.io</id>
     <title>Wed_ZZ</title>
-    <updated>2021-05-19T02:03:04.741Z</updated>
+    <updated>2021-05-19T02:11:55.843Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvan188.github.io"/>
     <link rel="self" href="https://lvan188.github.io/atom.xml"/>
@@ -10,6 +10,88 @@
     <logo>https://lvan188.github.io/images/avatar.png</logo>
     <icon>https://lvan188.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Wed_ZZ</rights>
+    <entry>
+        <title type="html"><![CDATA[数学公式整理]]></title>
+        <id>https://lvan188.github.io/post/shu-xue-gong-shi-zheng-li/</id>
+        <link href="https://lvan188.github.io/post/shu-xue-gong-shi-zheng-li/">
+        </link>
+        <updated>2021-05-19T02:10:24.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="高中必背88个数学公式圆的公式">高中必背88个数学公式——圆的公式</h2>
+<p>1、圆体积=4/3(pi）(r^3)</p>
+<p>2、面积=(pi)(r^2)</p>
+<p>3、周长=2(pi)r</p>
+<p>4、圆的标准方程(x-a)2+(y-b)2=r2【（a,b）是圆心坐标】</p>
+<p>5、圆的一般方程x2+y2+dx+ey+f=0【d2+e2-4f&gt;0】</p>
+<p>高中必背88个数学公式——椭圆公式</p>
+<p>1、椭圆周长公式：l=2πb+4(a-b)</p>
+<p>2、椭圆周长定理：椭圆的周长等于该椭圆短半轴，长为半径的圆周长（2πb）加上四倍的该椭圆长半轴长（a）与短半轴长（b）的差.</p>
+<p>3、椭圆面积公式：s=πab</p>
+<p>4、椭圆面积定理：椭圆的面积等于圆周率（π）乘该椭圆长半轴长（a）与短半轴长（b）的乘积。</p>
+<p>以上椭圆周长、面积公式中虽然没有出现椭圆周率t,但这两个公式都是通过椭圆周率t推导演变而来。</p>
+<p>高中必背88个数学公式——两角和公式</p>
+<p>1、sin(a+b)=sinacosb+cosasinbsin(a-b)=sinacosb-sinbcosa</p>
+<p>2、cos(a+b)=cosacosb-sinasinbcos(a-b)=cosacosb+sinasinb</p>
+<p>3、tan(a+b)=(tana+tanb)/(1-tanatanb)tan(a-b)=(tana-tanb)/(1+tanatanb)</p>
+<p>4、ctg(a+b)=(ctgactgb-1)/(ctgb+ctga)ctg(a-b)=(ctgactgb+1)/(ctgb-ctga)</p>
+<h2 id="高中必背88个数学公式倍角公式">高中必背88个数学公式——倍角公式</h2>
+<p>1、tan2a=2tana/(1-tan2a)ctg2a=(ctg2a-1)/2ctga</p>
+<p>2、cos2a=cos2a-sin2a=2cos2a-1=1-2sin2a</p>
+<h2 id="高中必背88个数学公式半角公式">高中必背88个数学公式——半角公式</h2>
+<p>1、sin(a/2)=√((1-cosa)/2)sin(a/2)=-√((1-cosa)/2)</p>
+<p>2、cos(a/2)=√((1+cosa)/2)cos(a/2)=-√((1+cosa)/2)</p>
+<p>3、tan(a/2)=√((1-cosa)/((1+cosa))tan(a/2)=-√((1-cosa)/((1+cosa))</p>
+<p>4、ctg(a/2)=√((1+cosa)/((1-cosa))ctg(a/2)=-√((1+cosa)/((1-cosa))</p>
+<h2 id="高中必背88个数学公式和差化积">高中必背88个数学公式——和差化积</h2>
+<p>1、2sinacosb=sin(a+b)+sin(a-b)2cosasinb=sin(a+b)-sin(a-b)</p>
+<p>2、2cosacosb=cos(a+b)-sin(a-b)-2sinasinb=cos(a+b)-cos(a-b)</p>
+<p>3、sina+sinb=2sin((a+b)/2)cos((a-b)/2cosa+cosb=2cos((a+b)/2)sin((a-b)/2)</p>
+<p>4、tana+tanb=sin(a+b)/cosacosbtana-tanb=sin(a-b)/cosacosb</p>
+<p>5、ctga+ctgbsin(a+b)/sinasinb-ctga+ctgbsin(a+b)/sinasinb</p>
+<h2 id="高中必背88个数学公式等差数列">高中必背88个数学公式——等差数列</h2>
+<p>1、等差数列的通项公式为：<br>
+an=a1+(n-1)d (1)<br>
+2、前n项和公式为：<br>
+Sn=na1+n(n-1)d/2或Sn=n(a1+an)/2(2)<br>
+从(1)式可以看出,an是n的一次数函(d≠0)或常数函数(d=0),(n,an)排在一条直线上,由(2)式知,Sn是n的二次函数(d≠0)或一次函数(d=0,a1≠0),且常数项为0.<br>
+在等差数列中,等差中项：一般设为Ar,Am+An=2Ar,所以Ar为Am,An的等差中项.<br>
+,<br>
+且任意两项am,an的关系为：<br>
+an=am+(n-m)d<br>
+它可以看作等差数列广义的通项公式.<br>
+3、从等差数列的定义、通项公式,前n项和公式还可推出：<br>
+a1+an=a2+an-1=a3+an-2=…=ak+an-k+1,k∈{1,2,…,n}<br>
+若m,n,p,q∈N*,且m+n=p+q,则有<br>
+am+an=ap+aq<br>
+Sm-1=(2n-1)an,S2n+1=(2n+1)an+1<br>
+Sk,S2k-Sk,S3k-S2k,…,Snk-S(n-1)k…或等差数列,等等.<br>
+和＝（首项＋末项）*项数÷2<br>
+项数＝（末项-首项）÷公差＋1<br>
+首项=2和÷项数-末项<br>
+末项=2和÷项数-首项<br>
+项数=(末项－首项）/公差＋1</p>
+<h2 id="高中必背88个数学公式等比数列">高中必背88个数学公式——等比数列</h2>
+<p>1、等比数列的通项公式是：An=A1<em>q^（n－1）<br>
+2、前n项和公式是：Sn=[A1(1-q^n)]/(1-q)<br>
+且任意两项am,an的关系为an=am·q^(n-m)<br>
+3、从等比数列的定义、通项公式、前n项和公式可以推出：a1·an=a2·an-1=a3·an-2=…=ak·an-k+1,k∈{1,2,…,n}<br>
+4、若m,n,p,q∈N</em>,则有：ap·aq=am·an,<br>
+等比中项：aq·ap=2ar ar则为ap,aq等比中项.<br>
+记πn=a1·a2…an,则有π2n-1=(an)2n-1,π2n+1=(an+1)2n+1<br>
+另外,一个各项均为正数的等比数列各项取同底数数后构成一个等差数列；反之,以任一个正数C为底,用一个等差数列的各项做指数构造幂Can,则是等比数列.在这个意义下,我们说：一个正项等比数列与等差数列是“同构”的.<br>
+性质：①若 m、n、p、q∈N,且m＋n=p＋q,则am·an=ap*aq；<br>
+②在等比数列中,依次每 k项之和仍成等比数列.<br>
+“G是a、b的等比中项”“G^2=ab（G≠0）”.<br>
+在等比数列中,首项A1与公比q都不为零.</p>
+<h2 id="高中必背88个数学公式抛物线">高中必背88个数学公式——抛物线</h2>
+<p>1、抛物线：y=ax*+bx+c就是y等于ax的平方加上bx再加上c。</p>
+<p>a&gt;0时，抛物线开口向上；a&lt;0时抛物线开口向下；c=0时抛物线经过原点；b=0时抛物线对称轴为y轴。</p>
+<p>2、顶点式y=a（x+h）*+k就是y等于a乘以（x+h）的平方+k，-h是顶点坐标的x，k是顶点坐标的y，一般用于求最大值与最小值。</p>
+<p>3、抛物线标准方程:y^2=2px它表示抛物线的焦点在x的正半轴上,焦点坐标为(p/2,0)。</p>
+<p>4、准线方程为x=-p/2由于抛物线的焦点可在任意半轴,故共有标准方程：</p>
+<pre><code>y^2=2pxy^2=-2pxx^2=2pyx^2=-2py
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[生物高考知识点]]></title>
         <id>https://lvan188.github.io/post/sheng-wu-gao-kao-zhi-shi-dian/</id>
@@ -20,8 +102,7 @@
 <p>《分子与细胞》</p>
 <p>（一）走近细胞</p>
 <p>一、细胞的生命活动离不开细胞</p>
-<p>1</p>
-<p>、无细胞结构的生物病毒的生命活动离不开细胞 生活方式：寄生在活细胞 病毒 分类：DNA病毒、RNA病毒</p>
+<p>1、无细胞结构的生物病毒的生命活动离不开细胞 生活方式：寄生在活细胞 病毒 分类：DNA病毒、RNA病毒</p>
 <p>遗传物质：或只是DNA，或只是RNA（一种病毒只含一种核酸）</p>
 <p>2、单细胞生物依赖单个细胞完成各种生命活动。</p>
 <p>3、多细胞生物依赖各种分化的细胞密切合作，完成复杂的生命活动。</p>
@@ -151,12 +232,10 @@
 <p>酶的催化作用需要适宜的温度、pH值等，过酸、过碱、高温都会破坏酶分子结构。低温也会影响酶的活性，但不破坏酶的分</p>
 <p>二、ATP（三磷酸腺苷）</p>
 <p>◎ ATP是生物体细胞内普遍存在的一种高能磷酸化合物，是生物体进行各项生命活动的直接能源，它的水解与合成存在着能量的释放与贮存。</p>
-<p>1</p>
-<p>．结构简式 P ～ P</p>
+<p>1．结构简式 P ～ P</p>
 <p>腺苷 普通化学键 磷酸基团</p>
 <p>（13.8KJ/mol） （30.54 KJ/mol）</p>
-<p>2</p>
-<p>．ATP与ADP的转化</p>
+<p>2．ATP与ADP的转化</p>
 <p>◎ ATP 能量</p>
 <p>动呼吸作用 态解（线粒体 、 平酶细胞质） 衡 Pi</p>
 <p>Pi</p>
@@ -284,8 +363,7 @@
 <p>4.常见问题解题方法</p>
 <p>（1）如后代性状分离比为显：隐=3 ：1，则双亲一定都是杂合子（Dd）</p>
 <p>即Dd×Dd 3D_：1dd</p>
-<p>（2）若后代性状分离比为显：隐</p>
-<p>=1 ：1，则双亲一定是测交类型。</p>
+<p>（2）若后代性状分离比为显：隐=1 ：1，则双亲一定是测交类型。</p>
 <p>即为</p>
 <p>Dd×dd</p>
 <p>1Dd ：1dd</p>
