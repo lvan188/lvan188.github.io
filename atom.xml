@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvan188.github.io</id>
     <title>Wed_ZZ</title>
-    <updated>2021-05-19T02:12:23.358Z</updated>
+    <updated>2021-05-19T02:21:41.488Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvan188.github.io"/>
     <link rel="self" href="https://lvan188.github.io/atom.xml"/>
@@ -11,12 +11,44 @@
     <icon>https://lvan188.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Wed_ZZ</rights>
     <entry>
+        <title type="html"><![CDATA[高中物理公式整理]]></title>
+        <id>https://lvan188.github.io/post/gao-zhong-wu-li-gong-shi-zheng-li/</id>
+        <link href="https://lvan188.github.io/post/gao-zhong-wu-li-gong-shi-zheng-li/">
+        </link>
+        <updated>2021-05-19T02:15:08.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="匀变速直线运动">匀变速直线运动</h3>
+<figure data-type="image" tabindex="1"><img src="https://lvan188.github.io/post-images/1621390660794.jpg" alt="" loading="lazy"></figure>
+<h3 id="力">力</h3>
+<figure data-type="image" tabindex="2"><img src="https://lvan188.github.io/post-images/1621390672401.jpg" alt="" loading="lazy"></figure>
+<h3 id="加速度-力学定理定律">加速度、力学定理定律</h3>
+<figure data-type="image" tabindex="3"><img src="https://lvan188.github.io/post-images/1621390691308.jpg" alt="" loading="lazy"></figure>
+<h3 id="电场">电场</h3>
+<figure data-type="image" tabindex="4"><img src="https://lvan188.github.io/post-images/1621390723295.jpg" alt="" loading="lazy"></figure>
+<h3 id="电路">电路</h3>
+<figure data-type="image" tabindex="5"><img src="https://lvan188.github.io/post-images/1621390744752.jpg" alt="" loading="lazy"></figure>
+<h3 id="磁场-电磁感应">磁场、电磁感应</h3>
+<figure data-type="image" tabindex="6"><img src="https://lvan188.github.io/post-images/1621390764802.jpg" alt="" loading="lazy"></figure>
+<h3 id="交流电">交流电</h3>
+<figure data-type="image" tabindex="7"><img src="https://lvan188.github.io/post-images/1621390782910.jpg" alt="" loading="lazy"></figure>
+<h3 id="热学">热学</h3>
+<figure data-type="image" tabindex="8"><img src="https://lvan188.github.io/post-images/1621390810745.jpg" alt="" loading="lazy"></figure>
+<h3 id="振动-波-动量">振动、波、动量</h3>
+<figure data-type="image" tabindex="9"><img src="https://lvan188.github.io/post-images/1621390834326.jpg" alt="" loading="lazy"></figure>
+<h3 id="光学-原子物理">光学、原子物理</h3>
+<figure data-type="image" tabindex="10"><img src="https://lvan188.github.io/post-images/1621390858610.jpg" alt="" loading="lazy"></figure>
+<h3 id="高中常用物理常数">高中常用物理常数</h3>
+<figure data-type="image" tabindex="11"><img src="https://lvan188.github.io/post-images/1621390877266.jpg" alt="" loading="lazy"></figure>
+<h3 id="高中常用物理常量">高中常用物理常量</h3>
+<figure data-type="image" tabindex="12"><img src="https://lvan188.github.io/post-images/1621390896296.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[数学公式整理]]></title>
         <id>https://lvan188.github.io/post/shu-xue-gong-shi-zheng-li/</id>
         <link href="https://lvan188.github.io/post/shu-xue-gong-shi-zheng-li/">
         </link>
         <updated>2021-05-19T02:10:24.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="高中必背88个数学公式圆的公式">高中必背88个数学公式——圆的公式</h2>
+        <content type="html"><![CDATA[<h3 id="高中必背88个数学公式圆的公式">高中必背88个数学公式——圆的公式</h3>
 <p>1、圆体积=4/3(pi）(r^3)</p>
 <p>2、面积=(pi)(r^2)</p>
 <p>3、周长=2(pi)r</p>
@@ -33,21 +65,21 @@
 <p>2、cos(a+b)=cosacosb-sinasinbcos(a-b)=cosacosb+sinasinb</p>
 <p>3、tan(a+b)=(tana+tanb)/(1-tanatanb)tan(a-b)=(tana-tanb)/(1+tanatanb)</p>
 <p>4、ctg(a+b)=(ctgactgb-1)/(ctgb+ctga)ctg(a-b)=(ctgactgb+1)/(ctgb-ctga)</p>
-<h2 id="高中必背88个数学公式倍角公式">高中必背88个数学公式——倍角公式</h2>
+<h3 id="高中必背88个数学公式倍角公式">高中必背88个数学公式——倍角公式</h3>
 <p>1、tan2a=2tana/(1-tan2a)ctg2a=(ctg2a-1)/2ctga</p>
 <p>2、cos2a=cos2a-sin2a=2cos2a-1=1-2sin2a</p>
-<h2 id="高中必背88个数学公式半角公式">高中必背88个数学公式——半角公式</h2>
+<h3 id="高中必背88个数学公式半角公式">高中必背88个数学公式——半角公式</h3>
 <p>1、sin(a/2)=√((1-cosa)/2)sin(a/2)=-√((1-cosa)/2)</p>
 <p>2、cos(a/2)=√((1+cosa)/2)cos(a/2)=-√((1+cosa)/2)</p>
 <p>3、tan(a/2)=√((1-cosa)/((1+cosa))tan(a/2)=-√((1-cosa)/((1+cosa))</p>
 <p>4、ctg(a/2)=√((1+cosa)/((1-cosa))ctg(a/2)=-√((1+cosa)/((1-cosa))</p>
-<h2 id="高中必背88个数学公式和差化积">高中必背88个数学公式——和差化积</h2>
+<h3 id="高中必背88个数学公式和差化积">高中必背88个数学公式——和差化积</h3>
 <p>1、2sinacosb=sin(a+b)+sin(a-b)2cosasinb=sin(a+b)-sin(a-b)</p>
 <p>2、2cosacosb=cos(a+b)-sin(a-b)-2sinasinb=cos(a+b)-cos(a-b)</p>
 <p>3、sina+sinb=2sin((a+b)/2)cos((a-b)/2cosa+cosb=2cos((a+b)/2)sin((a-b)/2)</p>
 <p>4、tana+tanb=sin(a+b)/cosacosbtana-tanb=sin(a-b)/cosacosb</p>
 <p>5、ctga+ctgbsin(a+b)/sinasinb-ctga+ctgbsin(a+b)/sinasinb</p>
-<h2 id="高中必背88个数学公式等差数列">高中必背88个数学公式——等差数列</h2>
+<h3 id="高中必背88个数学公式等差数列">高中必背88个数学公式——等差数列</h3>
 <p>1、等差数列的通项公式为：<br>
 an=a1+(n-1)d (1)<br>
 2、前n项和公式为：<br>
