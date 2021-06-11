@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvan188.github.io</id>
     <title>Wed_ZZ</title>
-    <updated>2021-06-11T07:13:20.537Z</updated>
+    <updated>2021-06-11T07:22:21.146Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvan188.github.io"/>
     <link rel="self" href="https://lvan188.github.io/atom.xml"/>
@@ -10,6 +10,89 @@
     <logo>https://lvan188.github.io/images/avatar.png</logo>
     <icon>https://lvan188.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Wed_ZZ</rights>
+    <entry>
+        <title type="html"><![CDATA[Android Studio Xposed模块编写]]></title>
+        <id>https://lvan188.github.io/post/android-studio-xposed-mo-kuai-bian-xie/</id>
+        <link href="https://lvan188.github.io/post/android-studio-xposed-mo-kuai-bian-xie/">
+        </link>
+        <updated>2021-06-11T07:14:45.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1-hook模块编写">1、Hook模块编写</h3>
+<p>1、新建Android studio工程，然后双击app目录下的build.gradle文件下增加内容如下</p>
+<pre><code>compileOnly('de.robv.android.xposed:api:82')
+compileOnly('de.robv.android.xposed:api:82:sources')
+
+
+</code></pre>
+<p>2、修改AndroidManifest.xml文件，在Application标签下增加内容如下</p>
+<pre><code class="language-xml">        &lt;meta-data
+            android:name=&quot;xposedmodule&quot;
+            android:value=&quot;true&quot; /&gt;
+        &lt;meta-data
+            android:name=&quot;xposeddescription&quot;
+            android:value=&quot;模块描述&quot; /&gt;
+        &lt;meta-data
+            android:name=&quot;xposedminversion&quot;
+            android:value=&quot;82&quot; /&gt;
+
+
+</code></pre>
+<p>3、新建hook类，命名为XMdodule，内容如下</p>
+<pre><code>public class XModule implements IXposedHookLoadPackage{
+ 
+    @Override
+    public void handleLoadPackage(XC_LoadPackage.LoadPackageParam loadPackageParam) throws Throwable {
+        if(loadPackageParam.packageName.equals(&quot;com.example.test&quot;)){
+            XposedBridge.log(&quot;XLZH &quot; + loadPackageParam.packageName);
+            XposedHelpers.findAndHookMethod(TelephonyManager.class, &quot;getDeviceId&quot;, new XC_MethodReplacement() {
+                @Override
+                protected Object replaceHookedMethod(MethodHookParam methodHookParam) throws Throwable {
+                    return &quot;this is imei&quot;;
+                }
+            });
+            XposedHelpers.findAndHookMethod(TelephonyManager.class, &quot;getSubscriberId&quot;, new XC_MethodReplacement() {
+                @Override
+                protected Object replaceHookedMethod(MethodHookParam methodHookParam) throws Throwable {
+                    return &quot;this is imsi&quot;;
+                }
+            });
+        }
+    }
+}
+</code></pre>
+<p>代码功能是hook 系统TelephonyManager类的getDeviceId()和getSubscriberId()方法，返回字符串，而且只hook com.example.test应用。</p>
+<p>4、新建assets目录，在其中新建文本xposed_init，里面内容为</p>
+<pre><code>com.zcgames.xposedtest.XModule
+</code></pre>
+<p>最后的目录结构如下图所示</p>
+<figure data-type="image" tabindex="1"><img src="https://lvan188.github.io/post-images/1623396071310.png" alt="" loading="lazy"></figure>
+<h3 id="2-hook目标应用编写">2、Hook目标应用编写</h3>
+<p>Android Studio新建com.example.test应用，MainActivity.java内容如下</p>
+<pre><code>public class MainActivity extends AppCompatActivity {
+ 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Button button = (Button)findViewById(R.id.getImei);
+ 
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                TelephonyManager tm = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
+                try {
+                    Log.d(&quot;XLZH&quot;, &quot;get imei &quot; + tm.getDeviceId());
+                    Log.d(&quot;XLZH&quot;, &quot;get imsi &quot; + tm.getSubscriberId());
+                }catch (Exception e) {
+                    Log.d(&quot;XLZH&quot;, e.getMessage());
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C语言开发]]></title>
         <id>https://lvan188.github.io/post/ssr/</id>
